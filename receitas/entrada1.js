@@ -54,15 +54,25 @@ const data = [
                 Tempo: "50min",
                 Rendimento: "8 porções",
                 Ingredientes: [
-                    "14 pães de queijo congelados",
-                    "150 gramas de peito de peru",
-                    "80 gramas de ricota",
+                    "Pão de queijo congelado",
+                    "Peito de peru",
+                    "Ricota",
                     "1 colher de sopa de maionese",
-                    "4 colheres de sopa de creme de leite",
-                    "Sal a gosto",
-                    "Pimenta-do-reino a gosto",
-                    "Pontas de cebolinha picada a gosto",
-                    "2 damascos desidratados",
+                    "Creme de leite",
+                    "Sal",
+                    "Pimenta-do-reino",
+                    "Pontas de cebolinha picada",
+                    "damascos desidratados",
+                ],
+                Quantidade:[
+                    "14 unidades",
+                    "150 gramas",
+                    "80 gramas",
+                    "4 colheres de sopa",
+                    "a gosto",
+                    "a gosto",
+                    "a gosto",
+                    "2 unidades"
                 ],
                 Preparo: [
                     "Asse os pães de queijo no forno a 180 °C por cerca de 40 minutos.",
@@ -82,16 +92,29 @@ const data = [
                 Tempo: " 15min",
                 Rendimento: "1 porção",
                 Ingredientes: [
-                    "1 pera",
-                    "5 ml de azeite de oliva",
-                    "Sal a gosto",
-                    "Pimenta-do-reino a gosto",     
-                    "100 g de chuchu cozido no vapor",
-                    "50 g de inhame cozido no vapor",
-                    "12 g de nutritional yeast",
-                    "15 ml de suco de limão",
-                    "10 ml de azeite de oliva",
-                    "1 g de agar-agar"
+                    "Pera",
+                    "Azeite de oliva",
+                    "Sal",
+                    "Pimenta-do-reino",     
+                    "Chuchu cozido no vapor",
+                    "Inhame cozido no vapor",
+                    "Nutritional yeast",
+                    "Suco de limão",
+                    "Azeite de oliva",
+                    "Agar-agar"
+                ],
+                Quantidade:[
+                    "1 unidade",
+                    "5 ml",
+                    "A gosto",
+                    "A gosto",
+                    "100 g",
+                    "50 g",
+                    "12 g",
+                    "15 ml",
+                    "10 ml",
+                    "1 g"
+
                 ],
                 Preparo: [
                     "Corte a pera ao meio e retire toda a polpa.",
@@ -113,12 +136,20 @@ const data = [
                 Tempo: "35min",
                 Rendimento: " 1 porção",
                 Ingredientes: [
-                    "1 abóbora manteiga",
-                    "Azeite a gosto",
-                    "Cebola picada a gosto",                 
-                    "Alho a gosto",
-                    "Carne seca desfiada a gosto",
-                    "Queijo ralado a gosto",
+                    "Abóbora manteiga",
+                    "Azeite",
+                    "Cebola picada",                 
+                    "Alho",
+                    "Carne seca desfiada",
+                    "Queijo ralado",
+                ],
+                Quantidade:[
+                    "1 unidade",
+                    "A gosto",
+                    "A gosto",
+                    "A gosto",
+                    "A gosto",
+                    "A gosto",
                 ],
                 Preparo: [
                     "Corte a abóbora ao meio e retire as sementes.",
@@ -141,11 +172,18 @@ const data = [
                 Tempo: "35min",
                 Rendimento: " 12 porções",
                 Ingredientes: [
-                    "1 xícara de chá de açúcar",
-                    "1/2 xícara de chá de óleo",
-                    "250 ml de água",                 
-                    "2 xícaras de chá de farinha de trigo",
-                    "1 colher de sopa de fermento químico em pó",
+                    "Açúcar",
+                    "Óleo",
+                    "Água",                 
+                    "Chá de farinha de trigo",
+                    "Fermento químico em pó",
+                ],
+                Quantidade:[
+                    "1 xícara",
+                    "1/2 xícara",
+                    "250 ml",
+                    "2 xícaras",
+                    "1 colher"
                 ],
                 Preparo: [
                     "Em uma vasilha, coloque o açúcar, o óleo e bata bem.",
@@ -162,17 +200,26 @@ const data = [
                 Title: "Vinagrete de jiló",
                 Tempo: "30min",
                 Rendimento: "4 porções",
-                Ingredientes: [
-                        
-                    "1 talo de alho-poró fatiado",
-                    "2 dentes de alho amassados",
-                    "2 jilós cortados em brunoise (cubos bem pequenos)",
-                    "1 colher de sopa de melado",
+                Ingredientes: [  
+                    "alho-poró fatiado",
+                    "alho amassados",
+                    "jilós cortados em brunoise (cubos bem pequenos)",
+                    "Melado",
                     "Suco de meio limão",
-                    "1 colher de sopa de molho umami",
-                    "1 pitada de sal",
-                    "Pimenta-do-reino a gosto",
+                    "Molho umami",
+                    "Sal",
+                    "Pimenta-do-reino",
 
+                ],
+                Quantidade:[
+                    "1 talo",
+                    "2 dentes",
+                    "2 unidades",
+                    "1 colher de sopa",
+                    "1/2 de limão",
+                    "1 colher de sopa",
+                    "1 pitada",
+                    "a gosto"
                 ],
                 Preparo: [
                     "Em uma panela com água fervente, cozinhe o alho-poró com os dentes de alho por 10 minutos.",
@@ -195,8 +242,13 @@ const data = [
                 Rendimento: "2 porções",
                 Ingredientes: [
                     "Batatas (quantidade a gosto) cortadas em palitos",
-                    "1 frigideira com óleo o sufisciente para cobrir as batatas",
-                    "1/2 colher (sopa) de amido de milho",
+                    "Óleo",
+                    "Amido de milho",
+                ],
+                Quantidade:[
+                    "A gosto",
+                    "Óleo sufisciente para cobrir as batatas",
+                    "1/2 colher (sopa)"
                 ],
                 Preparo: [
                     "Corte as batas em palito e seque-as com papel toalha.",
@@ -213,13 +265,23 @@ const data = [
                 Rendimento: "2 porções",
                 Ingredientes: [
                     "2 beterrabas",
-                    "Sal a gosto",
-                    "Pimenta a gosto",
-                    "Azeite a gosto",
-                    "1 1/2 xícara de chá de grão-de-bico cozido",
-                    "3 colheres de sopa de Tahine",
-                    "3 colheres de sopa de suco de limão",
-                    "Zahtar a gosto",
+                    "Sal",
+                    "Pimenta",
+                    "Azeite",
+                    "Grão-de-bico cozido",
+                    "Tahine",
+                    "suco de limão",
+                    "Zahtar",
+                ],
+                Quantidade:[
+                    "2 unidades",
+                    "A gosto",
+                    "A gosto",
+                    "1/2 xícara de chá",
+                    "3 colheres de sopa",
+                    "3 colheres de sopa",
+                    "A gosto"
+                    
                 ],
                 Preparo: [
                     "Descasque as beterrabas e corte em 4 partes.",
