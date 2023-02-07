@@ -232,6 +232,161 @@ const data = [
                 ],
             }
 
+        },
+
+        PratoPrincipal:{
+            Prato1: {
+                id:0,
+                Title: "Risoto de filé mignon",
+                Tempo: "40min",
+                Rendimento: "4 porções",
+                Ingredientes: [
+                    
+                    'filé mignon em cubos',
+                    'Sal e pimenta-do-reino',
+                    'azeite',
+                    'sopa de manteiga sem sal',
+                    'cebola picada',
+                    'alho picados',
+                    'arroz arbóreo',
+                    'vinho branco',
+                    'caldo de legumes',
+                    'Queijo parmesão',
+                    'Cheiro-verde',
+                ],
+                Quantidade:[
+                    "500 gramas",
+                    'a gosto',
+                    '1 fio',
+                    '2 colheres',
+                    '1/2',
+                    '2 dentes',
+                    '2 xicaras',
+                    '250 ml',
+                    '1 unidade',
+                    'a gosto',
+                    'a gosto',
+                ],
+                Preparo: [
+                    "Reúna todos os ingredientes;",
+                    "Tempere a carne com sal, pimenta e misture;",
+                    "Em uma panela, esquente um fio de azeite, sele o filé e reserve;",
+                    "Na mesma panela, derreta 1 colher de sopa de manteiga e refogue a cebola até dourar;",
+                    "Diminua o fogo, adicione o alho e deixe refogar;",
+                    "Acrescente o arroz e refogue também;",
+                    "Despeje o vinho e mexa sem parar;",
+                    "Vá colocando o caldo de legumes gradualmente e mexendo sempre;",
+                    "Conforme o caldo for secando, vá acrescentando e mexendo até o arroz ficar al dente;",
+                    "Adicione o filé mignon, misture e desligue o fogo;",
+                    "Salpique o parmesão ralado, acrescente a manteiga e misture até incorporar;",
+                    "Finalize com o cheiro-verde e acerte o sal (caso precise);",
+                    "Agora é só servir.",
+        
+                ],
+            },
+            Prato2: {
+                id:1,
+                Title: "Farfalle limone com salmão",
+                Tempo: "40min",
+                Rendimento: "5 porções",
+                Ingredientes: [
+                    'farfalle',
+                    'filé de salmão',
+                    'queijo parmesão ralado',
+                    'cebola roxa picada',
+                    'pimenta-dedo-de-moça picada sem sementes',
+                    'litro de creme de leite fresco',
+                    'colher de sopa de dill (endro) picado',
+                    'limões sicilianos',
+                    'Pimenta e sal',
+                    'Cebolinha',
+                ],
+                Quantidade:[
+                    '500 gramas',
+                    '700 gramas',
+                    '50 gramas',
+                    '1',
+                    '1',
+                    '1 litro',
+                    '1 colher',
+                    '2 limões',
+                    'a gosto',
+                ],
+                Preparo: [
+                    'Ferva água em uma panela para cozinhar o macarrão.',
+                    'Tempere o filé de salmão com pimenta e sal e frite em uma frigideira aquecida com azeite por cerca de 3 minutos cada lado.',
+                    'Retire o salmão do fogo, lasque o filé e reserve.',
+                    'Junte na frigideira usada para fritar o salmão, a cebola e a pimenta-dedo-de-moça.',
+                    'Adicione o creme de leite fresco assim que a cebola dourar e deixe reduzir em fogo baixo.',
+                    'Retire o suco dos limões, aqueça levemente e acrescente na frigideira.',
+                    'Adicione sal e pimenta-do-reino e mexa bem.',
+                    'Coloque o macarrão para cozinhar.',
+                    'Junte o salmão em lascas na frigideira do molho.',
+                    'Adicione o dill picado, o queijo parmesão ralado, as raspas de limão e mexa bem.',
+                    'Escorra o macarrão e junte com o molho.',
+                    'Finalize com a cebolinha e sirva. Bom apetite.',
+        
+                ],
+            },
+            Prato3: {
+                id:2,
+                Title: "Frango italiano",
+                Tempo: "50 min",
+                Rendimento: "5 porções",
+                Ingredientes: [
+                    '3 colheres de sopa de shoyu',
+                    '1 xícara de chá de molho de tomate',                  
+                    '1 colher de chá de mostarda dijon',
+                    '1/2 xícara de chá de vinho branco seco',
+                    '600 gramas peito de frango cortado em filés',                 
+                    '3 colheres de sopa de azeite',
+                    '1 cebola roxa              ',
+                    '2 dentes de alho                  ',
+                    '2 colheres de sopa de folhas de manjericão ',                 
+                    '1 xícara de chá de água                 ',
+                    '100 gramas de mini tomates italianos',
+                    '1 mussarela de búfala grande      ',
+                    'Sal e pimenta-do-reino a gosto',
+                ],
+                Quantidade:[
+
+                ],
+                Preparo: [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+        
+                ],
+            },
+            Prato4: {
+                id:3,
+                Title: "",
+                Tempo: "",
+                Rendimento: "",
+                Ingredientes: [
+                    "",
+                    "",
+                    "",                 
+                    "",
+                    "",
+                ],
+                Quantidade:[
+
+                ],
+                Preparo: [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+        
+                ],
+            },
+            
         }
     }
 
