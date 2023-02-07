@@ -12,11 +12,15 @@ import Opcoes from "../../Components/Opcoes";
 
 export default function Home() {
   const [hover, setHover] = useState("");
-  const [value, setValue] = useState()
+
+  const categorias = [
+    <Opcoes title="Entrada" vegano="Entrada vegana"/>,
+    <Opcoes title="Prato principal" vegano="Prato vegano"/>,
+    <Opcoes title="Sobremesa" vegano="Sobremesa vegana"/>,
+  ]
   
   return (
-    <ScrollView>
-      <StatusBar barStyle="light-content" backgroundColor="#23DCBB" />
+    <View>
       <View style={style.container}>
         <Text style={style.titleHeader}>Cookeats</Text>
       </View>
@@ -28,7 +32,7 @@ export default function Home() {
               ? style.textoCategoriaPress
               : style.textoCategoria
           }
-          onPress={() => setHover("Entrada") && setValue()}
+          onPress={() => {setHover("Entrada") } }
         >
           <Text style={style.textoCategoria}>Entrada</Text>
         </TouchableOpacity>
@@ -38,7 +42,7 @@ export default function Home() {
               ? style.textoCategoriaPress
               : style.textoCategoria
           }
-          onPress={() => setHover("Principal") && setValue(categorias[1])}
+          onPress={() => setHover("Principal") }
         >
           <Text style={style.textoCategoria}>Prato principal</Text>
         </TouchableOpacity>
@@ -54,9 +58,9 @@ export default function Home() {
         </TouchableOpacity>
       </View>
       <View style={style.containerEntrada}>
-          
+          {hover === "Entrada" ? categorias[0] : hover === "Principal" ? categorias[1] : hover === "Sobremesa" ? categorias[2] : categorias[0]}
       </View>
-    </ScrollView>
+    </View>
   );
 }
 
@@ -65,7 +69,7 @@ const style = StyleSheet.create({
   container: {
     width: width,
     backgroundColor: "#000",
-    height: 330,
+    height: 230,
     padding: 10,
   },
   titleHeader: {
@@ -74,7 +78,7 @@ const style = StyleSheet.create({
   },
   titleCategoria: {
     width: width,
-    fontSize: 40,
+    fontSize: 30,
     marginLeft: 10,
     marginTop: 14,
   },
@@ -83,14 +87,14 @@ const style = StyleSheet.create({
     flexDirection: "row",
   },
   textoCategoria: {
-    marginTop: 20,
+    marginTop: 10,
     marginLeft: 10,
-    fontSize: 25,
+    fontSize: 20,
   },
   textoCategoriaPress: {
-    marginTop: 20,
+    marginTop: 10,
     marginLeft: 10,
-    fontSize: 25,
+    fontSize: 20,
     borderBottomColor: "#23DCBB",
     borderBottomWidth: 3,
   },
@@ -98,7 +102,7 @@ const style = StyleSheet.create({
     width: width,
     height: 250,
     padding: 10,
-    marginTop: 20,
+    marginTop: 10,
   },
   titleEntrada: {
     fontSize: 45,
