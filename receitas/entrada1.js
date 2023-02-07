@@ -674,7 +674,250 @@ const data = [
 
                 ],
             }
-        }
+        },
+        Sobremesa: {
+            Sobremesa1: {
+              id: 0,
+              Title: "Pudim",
+              Tempo: "60 min",
+              Rendimento: "8 porções",
+              Ingredientes: [
+                "leite condensado",
+                "leite (medida da lata de leite condensado)",
+                "ovos inteiros",
+                "1 xícara (chá) de açúcar",
+                "1/2 xícara de água",
+              ],
+              Quantidade: ["1 lata", "1 lata", "3", "1 xícara", "1/2 xícara"],
+              Preparo: [
+                "Pudim",
+                "Primeiro, bata bem os ovos no liquidificador",
+                "Acrescente o leite condensado e o leite, e bata novamente",
+                "Calda",
+                "Derreta o açúcar na panela até ficar moreno, acrescente a água e deixe engrossar.",
+                "Coloque em uma forma redonda e despeje a massa do pudim por cima.",
+                "Asse em forno médio por 45 minutos, com a assadeira redonda dentro de uma maior com água.",
+                "Espete um garfo para ver se está bem assado.",
+                "Deixe esfriar e desenforme.",
+              ],
+            },
+            Sobremesa2: {
+              id: 1,
+              Title: "Manjar de coco",
+              Tempo: "20 min",
+              Rendimento: "20 porções",
+              Ingredientes: [
+                "leite",
+                "leite de coco",
+                "coco ralado seco sem açúcar",
+                "amido de milho",
+                "açúcar",
+              ],
+              Quantidade: [
+                "1 litro",
+                "1 vidro pequeno",
+                "100g",
+                "6 colheres (sopa)",
+                "8 colheres (sopa)",
+              ],
+      
+              Preparo: [
+                "Coloque o leite, o açúcar, o leite de coco e o coco ralado em uma panela, misture bem.",
+                "Leve ao fogo e junte o amido de milho dissolvido em um copo de leite.",
+                "Mexa sempre até engrossar, aguarde mais um minuto.",
+                "Despeje em uma forma decorada, untada com óleo ou simplesmente molhada.",
+                "Deixe esfriar e leve à geladeira por 2 horas.",
+                "Sirva com calda de ameixa ou calda de morangos.",
+              ],
+            },
+            Sobremesa3: {
+              id: 2,
+              Title: "Petit gateau",
+              Tempo: "30 min",
+              Rendimento: "8 porções",
+              Ingredientes: [
+                "chocolate meio amargo",
+                "manteiga sem sal",
+                "açúcar",
+                "farinha de trigo",
+                "ovos inteiros (tire a pele da gema)",
+                "gemas",
+              ],
+              Quantidade: [
+                "200g",
+                "2 colheres",
+                "1/4 xícara (chá)",
+                "2 colheres",
+                "2",
+                "2",
+              ],
+              Preparo: [
+                "Derreta a manteiga e o chocolate em banho-maria.",
+                "Bata os ovos e as gemas com açúcar na batedeira, até ficar bem claro.",
+                "Junte o chocolate derretido e a farinha de trigo, misturando com uma espátula.",
+                "Depois, unte as forminhas de empadinha, passe farinha de trigo e coloque a massa.",
+                "Preaqueça o forno e leve para assar de 6 a 10 minutos (em fogo alto) até os bolinhos crescerem, mas o meio deve ficar molinho.",
+                "Deve-se desenformar ainda quente.",
+                "Sirva diretamente no prato, acompanhado com sorvete de creme.",
+              ],
+            },
+            Sobremesa4: {
+              id: 3,
+              Title: "Banoffe de banana",
+              Tempo: "30 min",
+              Rendimento: "8 porções",
+              Ingredientes: [
+                "biscoito maisena",
+                "margarina (em temperatura ambiente)",
+                "chantilly",
+                " doce se leite",
+                "bananas nanicas",
+              ],
+              Quantidade: ["2 pacotes", "1 e 1/2 xícara", "400 g", "1 lata", "5"],
+              Preparo: [
+                "Triture o biscoito e misture com a margarina até virar uma massa que dê para forrar a forma.",
+                "Coloque no forno por 7 minutos.",
+                "Dentro da forma, coloque uma camada de bananas e uma camada de doce de leite e cubra com chantilly.",
+                "Polvilhe canela para decorar e sirva gelado.",
+              ],
+            },
+          },
+          SobremesaVeg: {
+            SobremesaVeg1: {
+              id: 4,
+              Title: "Pudim de chia simples",
+              Tempo: "80min",
+              Rendimento: "1 porção grande ou 2 pequenas",
+              Ingredientes: [
+                "leite de coco",
+                "sementes de chia",
+                "mel (ou qualquer adoçante )",
+                "Frutas",
+              ],
+              Quantidade: [
+                "1 xícara de chá",
+                "4 colheres de sopa ",
+                "2 colheres de sopa",
+                "a gosto",
+              ],
+              Preparo: [
+                "Em um recipiente, adicione o leite de coco, a chia, o mel e misture bem",
+                "Leve para a geladeira por no mínimo 1 hora para ganhar consistência",
+                "Agora é só montar: faça camadas do pudim intercalando com frutas em um potinho de vidro",
+                "Leve para a geladeira e deixe por mais 4 horas, ou de um dia para o outro",
+                "Agora é só servir.",
+              ],
+            },
+            SobremesaVeg1: {
+              id: 5,
+              Title: "Mousse de pitaya",
+              Tempo: "40min",
+              Rendimento: "4 a 6 porções",
+              Ingredientes: [
+                "pitaya rosa",
+                " castanhas demolhadas",
+                "leite de coco caseiro",
+                "Stevia",
+                "Baunilha",
+                "óleo de coco",
+              ],
+              Quantidade: ["1", "3 colheres de sopa", "120 ml", "a gosto", "a gosto"],
+              Preparo: [
+                "Coloque todos os ingredientes no liquidificador (menos o óleo de coco) e bata até ficar bem homogêneo.",
+                "Adicione o óleo de coco e bata até incorporar.",
+                "Transfira a mousse para taças ou um refratário e leve para a geladeira por cerca de 35 minutos.",
+                "Agora é só servir. Bom apetite.",
+              ],
+            },
+            SobremesaVeg1: {
+              id: 6,
+              Title: "Pavê vegano",
+              Tempo: "20min",
+              Rendimento: "10 porções",
+              Ingredientes: [
+                "leite vegetal",
+                "amido de milho",
+                "açúcar demerara",
+                "extrato de baunilha",
+                "cacau em pó",
+                "chocolate 50% vegano",
+                "Bolacha maisena vegana (ou de aveia)",
+                "Morango",
+              ],
+              Quantidade: [
+                "1 litro",
+                "4 colheres de sopa",
+                "6 colheres de sopa",
+                "1 colher de chá",
+                "4 colheres de sopa",
+                "6 quadradinhos",
+                "",
+                "a gosto",
+              ],
+              Preparo: [
+                "Em uma panela, coloque o leite, o amido e misture bem até diluir.",
+                "Leve para cozinhar em fogo baixo e acrescente o açúcar.",
+                "Cozinhe por quinze minutos até engrossar.",
+                "Em uma vasilha, coloque metade do creme, adicione a baunilha, misture bem e reserve.",
+                "Com a outra metade do creme ainda no fogo, acrescente o cacau, o chocolate, misture até tudo incorporar e reserve.",
+                "Para a montagem, intercale camadas de creme de chocolate, creme branco, bolacha e morango ou a forma que preferir.",
+                "Agora é só servir! Bom apetite.",
+              ],
+            },
+            SobremesaVeg1: {
+              id: 7,
+              Title: "Brigadeiro de capim-limão",
+              Tempo: "60min",
+              Rendimento: "4 a 6 porções",
+              Ingredientes: [
+                "inhame médio cozido e sem casca",
+                "capim-limão fresco picado",
+                "água",
+                "açúcar demerara",
+                " cacau em pó 100%"
+              ],
+              Quantidade: [
+                "1",
+                "1 xícara de chá",
+                "1 xícara de chá",
+                "1/4 de xícara de chá",
+                "1 colher de sobremesa"
+              ],
+              Preparo: [
+                "No liquidificador, coloque o inhame cozido, a água, o capim-limão e bata até formar um creme homogêneo.",
+                "Coe o creme, transfira para uma panela, adicione o restante dos ingredientes e misture bem.",
+                "Leve para o fogo médio e mexa sem parar por cerca de 20 minutos ou até começar a desgrudar da panela.",
+                "Despeje em um prato e leve para a geladeira por 30 minutos.",
+                "Agora é só servir. Bom apetite.",
+              ],
+      
+            },
+             SobremesaVeg1: {
+              id: 8,
+              Title: "Trufa de coco com damasco",
+              Tempo: "25min",
+              Rendimento: " 15 a 20 porções",
+              Ingredientes: [
+                "damasco seco",
+                "coco ralado sem açúcar",
+                "Whey Protein neutro ou de baunilha (proteína em pó vegana ou colágeno hidrolisado)",
+                "água"
+              ],
+              Quantidade: [
+                "1 xícara de chá",
+                "1 xícara de chá",
+                "30 g",
+               "1/4 de xícara",
+              ],
+              Preparo: [
+                "Em um processador (ou liquidificador), adicione todos os ingrediente e bata até formar uma massa uniforme e mais firme.",
+                "Umedeça as mãos, pegue pequenas porções da massa e molde em formato de bolinhas do tamanho que desejar.",
+                "Disponha em um recipiente e leve para a geladeira por 15 minutos.",
+                "Agora é só servir! Bom apetite."
+      
+              ],
+             }
+          },
     }
 
 ]
