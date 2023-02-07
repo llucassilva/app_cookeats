@@ -1,12 +1,12 @@
 const data = [
     {
-        Entrada:{
-            Receita1:{
-            id:0, 
-                Title:"Brusqueta de cogumelo paris",
+        Entrada: {
+            Receita1: {
+                id: 0,
+                Title: "Brusqueta de cogumelo paris",
                 Tempo: "31min",
                 Rendimento: "10 porções",
-                Ingredientes:[
+                Ingredientes: [
                     "Cogumelo Paris fresco",
                     "Azeite",
                     "Dentes de alho",
@@ -20,7 +20,7 @@ const data = [
                     "Folhas de orégano",
 
                 ],
-                Quantidade:[
+                Quantidade: [
                     "200 gramas",
                     "2 colheres de sopa",
                     "3 dentes",
@@ -33,7 +33,7 @@ const data = [
                     "a gosot",
                     "a gosto",
                 ],
-                Preparo:[
+                Preparo: [
                     "Limpe os cogumelos, corte em lâminas e reserve.",
                     "Em uma panela, coloque o azeite e frite os dentes de alho.",
                     "Adicione os cogumelos, mexa e deixe refogar até ficarem levemente macios.",
@@ -46,10 +46,10 @@ const data = [
                     "Sirva com as folhas de orégano. Bom apetite.",
                 ],
 
-        
+
             },
             Receita2: {
-                id:1,
+                id: 1,
                 Title: "Canapés de pão de queijo",
                 Tempo: "50min",
                 Rendimento: "8 porções",
@@ -64,7 +64,7 @@ const data = [
                     "Pontas de cebolinha picada",
                     "damascos desidratados",
                 ],
-                Quantidade:[
+                Quantidade: [
                     "14 unidades",
                     "150 gramas",
                     "80 gramas",
@@ -86,8 +86,8 @@ const data = [
                     "Agora é só servir! Bom apetite.",
                 ],
             },
-            Receita3:{
-                id:2,
+            Receita3: {
+                id: 2,
                 Title: "Pera assada com catupiry de chuchu",
                 Tempo: " 15min",
                 Rendimento: "1 porção",
@@ -95,7 +95,7 @@ const data = [
                     "Pera",
                     "Azeite de oliva",
                     "Sal",
-                    "Pimenta-do-reino",     
+                    "Pimenta-do-reino",
                     "Chuchu cozido no vapor",
                     "Inhame cozido no vapor",
                     "Nutritional yeast",
@@ -103,7 +103,7 @@ const data = [
                     "Azeite de oliva",
                     "Agar-agar"
                 ],
-                Quantidade:[
+                Quantidade: [
                     "1 unidade",
                     "5 ml",
                     "A gosto",
@@ -128,22 +128,22 @@ const data = [
                     "Deixe no fogo por 2 minutos.",
                     "Recheie as peras com o catupiry.",
                     "Asse por mais 5 minutos no forno a 180°C.",
-               ],
+                ],
             },
-            Receita4:{
-                id:3,
+            Receita4: {
+                id: 3,
                 Title: "Abóbora manteiga recheada com carne-seca",
                 Tempo: "35min",
                 Rendimento: " 1 porção",
                 Ingredientes: [
                     "Abóbora manteiga",
                     "Azeite",
-                    "Cebola picada",                 
+                    "Cebola picada",
                     "Alho",
                     "Carne seca desfiada",
                     "Queijo ralado",
                 ],
-                Quantidade:[
+                Quantidade: [
                     "1 unidade",
                     "A gosto",
                     "A gosto",
@@ -165,20 +165,20 @@ const data = [
                 ],
             }
         },
-        EntradaVeg:{
+        EntradaVeg: {
             Entradaveg1: {
-                id:4,
+                id: 4,
                 Title: "Bolo d agua",
                 Tempo: "35min",
                 Rendimento: " 12 porções",
                 Ingredientes: [
                     "Açúcar",
                     "Óleo",
-                    "Água",                 
+                    "Água",
                     "Chá de farinha de trigo",
                     "Fermento químico em pó",
                 ],
-                Quantidade:[
+                Quantidade: [
                     "1 xícara",
                     "1/2 xícara",
                     "250 ml",
@@ -192,15 +192,15 @@ const data = [
                     "Junte o fermento e misture delicadamente.",
                     "Transfira para uma forma untada e leve para assar em forno preaquecido a 180 °C por meia hora ou até dourar.",
                     "Aproveite cade pedaço dessa delícia .",
-        
+
                 ],
             },
             Entradaveg2: {
-                id:5,
+                id: 5,
                 Title: "Vinagrete de jiló",
                 Tempo: "30min",
                 Rendimento: "4 porções",
-                Ingredientes: [  
+                Ingredientes: [
                     "alho-poró fatiado",
                     "alho amassados",
                     "jilós cortados em brunoise (cubos bem pequenos)",
@@ -211,7 +211,7 @@ const data = [
                     "Pimenta-do-reino",
 
                 ],
-                Quantidade:[
+                Quantidade: [
                     "1 talo",
                     "2 dentes",
                     "2 unidades",
@@ -232,11 +232,11 @@ const data = [
                     "Adicione o molho umami, misture e espere esfriar.",
                     "Em um prato acomode as folhas de alho-poró e coloque o vinagrete de jiló por cima.",
                     "Finalize com o molho e está pronto para servir. ",
-        
+
                 ],
             },
             Entradaveg3: {
-                id:6,
+                id: 6,
                 Title: "Batata Frita Quentinha",
                 Tempo: "20min",
                 Rendimento: "2 porções",
@@ -245,7 +245,7 @@ const data = [
                     "Óleo",
                     "Amido de milho",
                 ],
-                Quantidade:[
+                Quantidade: [
                     "A gosto",
                     "Óleo sufisciente para cobrir as batatas",
                     "1/2 colher (sopa)"
@@ -255,11 +255,11 @@ const data = [
                     "Coloque o óleo para esquentar, quando estiver bem quente, retire 1/2 xícara desse óleo e misture a 1/2 colher de amido de milho.",
                     "Após misturado, volte esse óleo para frigideira, frite as batatas em fogo médio até dourarem.",
                     "É uma dica que vale muito a pena, pois as batas ficam bem sequinhas.",
-        
+
                 ],
             },
-            Entradaveg4:{
-                id:7,
+            Entradaveg4: {
+                id: 7,
                 Title: "Homus de beterraba",
                 Tempo: "45min",
                 Rendimento: "2 porções",
@@ -273,7 +273,7 @@ const data = [
                     "suco de limão",
                     "Zahtar",
                 ],
-                Quantidade:[
+                Quantidade: [
                     "2 unidades",
                     "A gosto",
                     "A gosto",
@@ -281,7 +281,7 @@ const data = [
                     "3 colheres de sopa",
                     "3 colheres de sopa",
                     "A gosto"
-                    
+
                 ],
                 Preparo: [
                     "Descasque as beterrabas e corte em 4 partes.",
@@ -290,20 +290,20 @@ const data = [
                     "Em um processador, coloque o grão-de-bico, as beterrabas cozidas, o Tahine, o suco de limão e o azeite.",
                     "Bata até virar uma pastinha.",
                     "Transfira para uma tigela, regue com mais azeite e polvilhe um mais pouco de Zahtar e está pronto."
-        
+
                 ],
             }
 
         },
 
-        PratoPrincipal:{
+        PratoPrincipal: {
             Prato1: {
-                id:0,
+                id: 0,
                 Title: "Risoto de filé mignon",
                 Tempo: "40min",
                 Rendimento: "4 porções",
                 Ingredientes: [
-                    
+
                     'filé mignon em cubos',
                     'Sal e pimenta-do-reino',
                     'azeite',
@@ -316,7 +316,7 @@ const data = [
                     'Queijo parmesão',
                     'Cheiro-verde',
                 ],
-                Quantidade:[
+                Quantidade: [
                     "500 gramas",
                     'a gosto',
                     '1 fio',
@@ -343,11 +343,11 @@ const data = [
                     "Salpique o parmesão ralado, acrescente a manteiga e misture até incorporar;",
                     "Finalize com o cheiro-verde e acerte o sal (caso precise);",
                     "Agora é só servir.",
-        
+
                 ],
             },
             Prato2: {
-                id:1,
+                id: 1,
                 Title: "Farfalle limone com salmão",
                 Tempo: "40min",
                 Rendimento: "5 porções",
@@ -363,7 +363,7 @@ const data = [
                     'Pimenta e sal',
                     'Cebolinha',
                 ],
-                Quantidade:[
+                Quantidade: [
                     '500 gramas',
                     '700 gramas',
                     '50 gramas',
@@ -387,68 +387,293 @@ const data = [
                     'Adicione o dill picado, o queijo parmesão ralado, as raspas de limão e mexa bem.',
                     'Escorra o macarrão e junte com o molho.',
                     'Finalize com a cebolinha e sirva. Bom apetite.',
-        
+
                 ],
             },
             Prato3: {
-                id:2,
+                id: 2,
                 Title: "Frango italiano",
                 Tempo: "50 min",
                 Rendimento: "5 porções",
                 Ingredientes: [
-                    '3 colheres de sopa de shoyu',
-                    '1 xícara de chá de molho de tomate',                  
-                    '1 colher de chá de mostarda dijon',
-                    '1/2 xícara de chá de vinho branco seco',
-                    '600 gramas peito de frango cortado em filés',                 
-                    '3 colheres de sopa de azeite',
-                    '1 cebola roxa              ',
-                    '2 dentes de alho                  ',
-                    '2 colheres de sopa de folhas de manjericão ',                 
-                    '1 xícara de chá de água                 ',
-                    '100 gramas de mini tomates italianos',
-                    '1 mussarela de búfala grande      ',
-                    'Sal e pimenta-do-reino a gosto',
+                    'sopa de shoyu',
+                    'xícara de chá de molho de tomate',
+                    'colher de chá de mostarda dijon',
+                    'vinho branco seco',
+                    'peito de frango cortado em filés',
+                    'azeite',
+                    'cebola roxa              ',
+                    'alho                  ',
+                    'folhas de manjericão ',
+                    'água                 ',
+                    'mini tomates italianos',
+                    'mussarela de búfala grande      ',
+                    'Sal e pimenta-do-reino',
                 ],
-                Quantidade:[
-
+                Quantidade: [
+                    '3 colheres',
+                    '1 xícara',
+                    '1 colher de chá',
+                    '1/2 xícara de chá',
+                    '600 gramas',
+                    '3 colheres de sopa',
+                    '1',
+                    '2 dentes',
+                    '2 colheres de sopa',
+                    '1 xícara de chá',
+                    '100 gramas',
+                    '1',
+                    'a gosto',
                 ],
                 Preparo: [
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-        
+                    'Em um recipiente, coloque o shoyu, 3 colheres de sopa de molho de tomate, a mostarda dijon, 2 colheres de sopa de vinho branco e a pimenta-do-reino.',
+                    'Misture e deixe marinar por pelo menos 30 minutos.',
+                    'Preaqueça uma panela em fogo alto.',
+                    'Quando estiver bem quente, coloque o frango.',
+                    'Sele cada lado do filé por 2 minutos, sem mexer muito.',
+                    'Retire-os da panela e reserve.',
+                    'Na mesma panela, regue com um pouco de azeite, adicione a cebola e o alho picado, o sal e deixe refogar.',
+                    'Acrescente o restante do vinho branco e deixe-o evaporar.',
+                    'Volte com os peitos de frango para a panela.',
+                    'Adicione também a marinada, o restante do molho de tomate e as folhas de manjericão.',
+                    'Inclua a água e misture.',
+                    'Deixe cozinhar por 10 minutos, mexendo na metade do tempo.',
+                    'Acrescente os tomates.',
+                    'Corte a mussarela em tiras e coloque por cima dos peitos de frango.',
+                    'Tampe a panela e deixe cozinhar por 2 minutos.',
+                    'Quando o queijo estiver derretido, acrescente mais folhas de manjericão e um pouco de pimenta-do-reino.',
+                    'Está pronto para servir.',
+
                 ],
             },
             Prato4: {
-                id:3,
-                Title: "",
-                Tempo: "",
-                Rendimento: "",
+                id: 3,
+                Title: "Sobrecoxa ao molho de cogumelos",
+                Tempo: "50min",
+                Rendimento: "6 porções",
                 Ingredientes: [
-                    "",
-                    "",
-                    "",                 
-                    "",
-                    "",
+                    'sobrecoxa',
+                    'Sal',
+                    'Pimenta-do-reino',
+                    'cogumelo paris',
+                    'cogumelo portobelo',
+                    'vinho branco seco',
+                    'amido de milho',
+                    'Cheiro-verde',
                 ],
-                Quantidade:[
+                Quantidade: [
+                    '1kg',
+                    'a gosto',
+                    'a gosto',
+                    '200 gramas',
+                    '200 gramas',
+                    '400 ml',
+                    '2 colheres de sopa',
+                    'a gosto',
+                ],
+                Preparo: [
+                    'Em uma vasilha, coloque as sobrecoxas e tempere com sal e pimenta.',
+                    'Em uma frigideira, coloque as sobrecoxas e deixe dourar bem dos dois lados.',
+                    'Retire e reserve.',
+                    'Na mesma panela, adicione os cogumelos cortados em fatias e deixe-os al dente.',
+                    'Despeje o vinho e ajuste o sal e a pimenta.',
+                    'Em um copo, coloque um pouco do vinho e dissolva o amido.',
+                    'Coloque essa mistura na panela e mexa bem.',
+                    'Deixe ferver, retorne o frango e cozinhe por mais alguns minutos.',
+                    'Finalize com cheiro-verde picadinho. Bom apetite.',
+
+                ],
+            },
+
+        },
+        PratoVeg: {
+            PratoVeg1: {
+                id: 4,
+                Title: "Carbonara vegana",
+                Tempo: "10 min",
+                Rendimento: "1 porção",
+                Ingredientes: [
+
+                    'tofu',
+                    'azeite',
+                    'Molho de soja',
+                    'Pimenta-preta',
+                    'Páprica',
+                    'Alho em pó',
+                    'dentes de alho',
+                    'cogumelos Paris',
+                    'massa cozida',
+                    'natas de soja',
+                    'Sal',
+                    'açafrão',
+                    'Suco de limão',
+                ],
+                Quantidade: [
+                    '100 gramas',
+                    '1 fio',
+                    'a gosto',
+                    'a gosto',
+                    'a gosto',
+                    'a gosto',
+                    '2 dentes',
+                    '5',
+                    '80 gramas',
+                    '1/3 do pacote',
+                    'a gosto',
+                    '1 pitada',
+                    'a gosto',
+                ],
+                Preparo: [
+                    'Corte o tofu em retângulos e grelhe no azeite.',
+                    'Tempere com molho de soja, páprica, pimenta e alho em pó.',
+                    'Em outra frigideira, doure o alho picado por 2 minutos em fogo baixo.',
+                    'Adicione os cogumelos picados e refogue por alguns minutos, mas não deixe murchar totalmente.',
+                    'Corte o tofu em pedaços menores e adicione na frigideira com o alho picado.',
+                    'Coloque a massa cozida, as natas de soja e tempere com sal, pimenta, alho em pó, páprica e açafrão.',
+                    'Desligue o fogo e pingue algumas gotas de suco de limão por cima.',
+
+                ],
+            },
+            PratoVeg2: {
+                id: 5,
+                Title: "Almôndegas de grão-de-bico veganas",
+                Tempo: "20 min",
+                Rendimento: "10 a 15 unidades",
+                Ingredientes: [
+
+                    'grão-de-bico cozido bem macio',
+                    'cheiro-verde picado',
+                    'água',
+                    'cominho em pó',
+                    'páprica defumada',
+                    'alho pequeno (sem o miolo)',
+                    'cebola picada',
+                    'semente de gergelim (opcional)',
+                    'Sal',
+                    'Farinha de trigo para dar liga',
+                    'Óleo para fritar',
+                ],
+                Quantidade: [
+                    '2 xícaras de chá',
+                    '4 colheres de sopa',
+                    '6 colheres de sopa',
+                    '1/2 colher de chá',
+                    '1/2 colher de chá',
+                    '1 dente',
+                    '1/4',
+                    '1 colher de sopa',
+                    'a gosto',
 
                 ],
                 Preparo: [
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-        
+                    'Em um processador, coloque todos os ingredientes (menos a farinha e o óleo) e processe até formar uma massa uniforme.',
+                    'Adicione a farinha, gradualmente e vá misturando até dar liga.',
+                    'Pegue pequenas porções da massa, molde em bolinhas e frite em óleo bem quente.',
+                    'Agora é só servir. Bom apetite.',
+
                 ],
             },
-            
+            PratoVeg3: {
+                id: 6,
+                Title: "Moqueca vegana",
+                Tempo: "30min",
+                Rendimento: "4 porções",
+                Ingredientes: [
+                    'azeite',
+                    'alho',
+                    'cebola',
+                    'pimentão vermelho',
+                    'pimentão amarelo',
+                    'banana da terra madura',
+                    'caju',
+                    'palmito pupunha',
+                    'Sal',
+                    'Pimenta -do-reino',
+                    'tomate',
+                    'leite de coco',
+                    'Pimenta- dedo - de - moça',
+                    'Gengibre',
+                    'Raiz de capim- santo',
+                    'Coentro',
+                ],
+                Quantidade: [
+                    '100 ml',
+                    '15 gramas',
+                    '100 gramas',
+                    '60 gramas',
+                    '60 gramas',
+                    '200 gramas',
+                    '100 gramas',
+                    '160 gramas',
+                    'a gosto',
+                    '120 gramas',
+                    '300 ml',
+                    'a gosto',
+                    'a gosto',
+                    'a gosto',
+                    'a gosto',
+
+                ],
+                Preparo: [
+                    'Em uma frigideira, coloque azeite, o alho e deixe dourar.',
+                    'Adicione a cebola, os pimentões e refogue bem.',
+                    'Acrescente a banana, o caju, o palmito e tempere com sal e pimenta-do-reino.',
+                    'Refogue por mais três minutos e junte os demais ingredientes.',
+                    'Cozinhe por mais cinco minutos e sirva em seguida.',
+                    'Sirva e bom apetite.',
+
+                ],
+            },
+            PratoVeg4: {
+                id: 7,
+                Title: "Feijoada vegana",
+                Tempo: "50min",
+                Rendimento: "4 porções",
+                Ingredientes: [
+
+                    'gramas de tofu frescal',
+                    'gramas de tofu defumado',
+                    'Óleo',
+                    'cebola grande cortada em cubinhos',
+                    'dentes de alho picados',
+                    'feijão-preto (12 horas de molho)',
+                    'Água',
+                    'chuchu descascado e picado rusticamente',
+                    'cenoura pequena cortada em rodelas diagonais',
+                    'batata-doce pequena cortada em rodelas',
+                    'laranja inteira',
+                    'pimenta-dedo-de-moça',
+                ],
+                Quantidade: [
+                    '120 gramas',
+                    '120 gramas',
+                    'a gosto',
+                    '1',
+                    '3 a 4 dentes',
+                    '1 xícara de chá',
+                    'o quanto bastar',
+                    '1/2 ',
+                    '1',
+                    '1',
+                    '1',
+                    '1/2',
+                ],
+                Preparo: [
+                    'Retire as cascas do tofu defumado, corte elas em lascas e o tofu em cubinhos pequenos. Reserve o tofu com o alho.',
+                    'O tofu frescal, pique em cubos maiores.',
+                    'Em uma panela, esquente o óleo o suficiente para fritura e frite os cubos de tofu frescal e as cascas do tofu defumado. Reserve.',
+                    'Em uma panela grande, esquente um fio de alho e refogue a cebola até ela começar a caramelizar.',
+                    'Adicione o alho, o tofu defumado, misture bem e deixe refogar até dourar bem.',
+                    'Acrescente o feijão e dê uma leve refogada.',
+                    'Cubra com água e deixe ferver por cerca de 40 minutos.',
+                    'Enquanto isso, em uma frigideira, esquente 1 fio de óleo e grelhe os legumes. Reserve.',
+                    'Corte a laranja em rodelas e coloque para cozinhar com o feijão.',
+                    'Junte a pimenta-dedo-de-moça e misture bem.',
+                    'Assim que o feijão cozinhar e o caldo engrossar, retire as rodelas de laranja, adicione os legumes grelhados, o tofu frito, 1/2 xícara de água, misture e deixe cozinhar por mais 10 minutos.',
+                    'Sirva com arroz, farofa vegana e couve refogada. Bom apetite.',
+
+                ],
+            }
         }
     }
 
