@@ -27,6 +27,7 @@ export default function Home() {
       <View style={style.container}>
         <Image source="../../img/Header.png"/>
         <Text style={style.titleHeader}>Cookeats</Text>
+        <Text style={style.textheader}>Cookeats</Text>
       </View>
       <Text style={style.titleCategoria}>Receitas</Text>
       <View style={style.categoria}>
