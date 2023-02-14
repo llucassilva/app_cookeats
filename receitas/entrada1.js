@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
         Entrada: {
             Receita1: {
@@ -9,7 +9,7 @@ const data = [
                 Ingredientes: [
                     "Cogumelo Paris fresco",
                     "Azeite",
-                    "Dentes de alho",
+                    "Alho",
                     "Tomate-cereja",
                     "Sal",
                     "Pimenta-do-reino",
@@ -29,8 +29,8 @@ const data = [
                     "a gosto",
                     "a gosto",
                     "uma unidade",
-                    "a gosot",
-                    "a gosot",
+                    "a gosto",
+                    "a gosto",
                     "a gosto",
                 ],
                 Preparo: [
