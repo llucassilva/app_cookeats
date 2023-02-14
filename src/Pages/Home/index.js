@@ -23,6 +23,7 @@ export default function Home() {
     <View>
       <View style={style.container}>
         <Text style={style.titleHeader}>Cookeats</Text>
+        <Text style={style.textheader}>Cookeats</Text>
       </View>
       <Text style={style.titleCategoria}>Receitas</Text>
       <View style={style.categoria}>

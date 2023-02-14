@@ -3,8 +3,10 @@ export const data = [
         Entrada: {
             Receita1: {
                 id: 0,
+                
                 Title: "Brusqueta de cogumelo paris",
                 Tempo: "31min",
+                img: '',
                 Rendimento: "10 porções",
                 Ingredientes: [
                     "Cogumelo Paris fresco",
