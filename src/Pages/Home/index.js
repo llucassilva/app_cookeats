@@ -6,22 +6,26 @@ import {
   Dimensions,
   ScrollView,
   TouchableOpacity,
+  Image
 } from "react-native";
 import React, { useState } from "react";
 import Opcoes from "../../Components/Opcoes";
+import { data } from "../../../receitas/entrada1"
 
 export default function Home() {
   const [hover, setHover] = useState("");
 
+
   const categorias = [
-    <Opcoes title="Entrada" vegano="Entrada vegana"/>,
+    <Opcoes  title="Entrada" vegano="Entrada vegana"/>,
     <Opcoes title="Prato principal" vegano="Prato vegano"/>,
     <Opcoes title="Sobremesa" vegano="Sobremesa vegana"/>,
   ]
-  
+
   return (
     <View>
       <View style={style.container}>
+        <Image source="../../img/Header.png"/>
         <Text style={style.titleHeader}>Cookeats</Text>
       </View>
       <Text style={style.titleCategoria}>Receitas</Text>
@@ -63,6 +67,7 @@ export default function Home() {
     </View>
   );
 }
+
 
 const { width, height } = Dimensions.get("screen");
 const style = StyleSheet.create({

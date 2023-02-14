@@ -1,7 +1,8 @@
-const data = [
+ export const data = [
     {
-        Entrada: {
-            Receita1: {
+        Entrada: 
+            [{
+
                 id: 0,
                 Title: "Brusqueta de cogumelo paris",
                 Tempo: "31min",
@@ -48,7 +49,7 @@ const data = [
 
 
             },
-            Receita2: {
+            {
                 id: 1,
                 Title: "Canapés de pão de queijo",
                 Tempo: "50min",
@@ -86,7 +87,7 @@ const data = [
                     "Agora é só servir! Bom apetite.",
                 ],
             },
-            Receita3: {
+             {
                 id: 2,
                 Title: "Pera assada com catupiry de chuchu",
                 Tempo: " 15min",
@@ -130,7 +131,7 @@ const data = [
                     "Asse por mais 5 minutos no forno a 180°C.",
                 ],
             },
-            Receita4: {
+            {
                 id: 3,
                 Title: "Abóbora manteiga recheada com carne-seca",
                 Tempo: "35min",
@@ -164,9 +165,9 @@ const data = [
 
                 ],
             }
-        },
-        EntradaVeg: {
-            Entradaveg1: {
+        ],
+        EntradaVeg: [
+         {
                 id: 4,
                 Title: "Bolo d agua",
                 Tempo: "35min",
@@ -195,7 +196,7 @@ const data = [
 
                 ],
             },
-            Entradaveg2: {
+            {
                 id: 5,
                 Title: "Vinagrete de jiló",
                 Tempo: "30min",
@@ -235,7 +236,7 @@ const data = [
 
                 ],
             },
-            Entradaveg3: {
+            {
                 id: 6,
                 Title: "Batata Frita Quentinha",
                 Tempo: "20min",
@@ -258,7 +259,7 @@ const data = [
 
                 ],
             },
-            Entradaveg4: {
+            {
                 id: 7,
                 Title: "Homus de beterraba",
                 Tempo: "45min",
@@ -294,7 +295,7 @@ const data = [
                 ],
             }
 
-        },
+        ],
 
         PratoPrincipal: {
             Prato1: {

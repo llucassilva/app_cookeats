@@ -1,41 +1,30 @@
 import { View, Text, ScrollView, StyleSheet, Dimensions } from "react-native";
 import React from "react";
+import Card from "./Card";
+import { data } from "../../receitas/entrada1";
 
-export default function Opcoes({ title, data, vegano }) {
+export default function Opcoes({ title, vegano }) {
   return (
     <>
       <View style={style.container}>
         <Text style={style.OpcoesTitle}>{title}</Text>
         <ScrollView horizontal>
-          <View style={style.containerCard}>
-            <Text>Carne</Text>
-          </View>
-          <View style={style.containerCard}>
-            <Text>Carne</Text>
-          </View>
-          <View style={style.containerCard}>
-            <Text>Carne</Text>
-          </View>
-          <View style={style.containerCard}>
-            <Text>Carne</Text>
-          </View>
+          {data[0].Entrada.map((item, index) => {
+            console.log(item)
+            return(
+              <Card key={index} title={item.Title} />
+            )
+          })}
         </ScrollView>
       </View>
       <View style={style.container}>
         <Text style={style.OpcoesTitleVegano}>{vegano}</Text>
         <ScrollView horizontal>
-          <View style={style.containerCard}>
-            <Text>Carne</Text>
-          </View>
-          <View style={style.containerCard}>
-            <Text>Carne</Text>
-          </View>
-          <View style={style.containerCard}>
-            <Text>Carne</Text>
-          </View>
-          <View style={style.containerCard}>
-            <Text>Carne</Text>
-          </View>
+          {data[0].EntradaVeg.map((item,index) => {
+            return(
+              <Card key={index} title={item.Title} />
+            )
+          })}
         </ScrollView>
       </View>
     </>
@@ -49,10 +38,10 @@ const style = StyleSheet.create({
     width: width,
     padding: 10,
   },
-  OpcoesTitleVegano:{
+  OpcoesTitleVegano: {
     fontSize: 30,
     marginBottom: 10,
-    marginTop: 10
+    marginTop: 10,
   },
   OpcoesTitle: {
     fontSize: 30,
@@ -69,6 +58,6 @@ const style = StyleSheet.create({
     height: 500,
   },
   container: {
-    height: 200,
+    height: 220,
   },
 });
