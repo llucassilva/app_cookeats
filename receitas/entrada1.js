@@ -6,7 +6,7 @@ export const data = [
                 
                 Title: "Brusqueta de cogumelo paris",
                 Tempo: "31min",
-                img: '',
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/um.jpg?raw=true',
                 Rendimento: "10 porções",
                 Ingredientes: [
                     "Cogumelo Paris fresco",
@@ -54,6 +54,7 @@ export const data = [
                 id: 1,
                 Title: "Canapés de pão de queijo",
                 Tempo: "50min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/dois.jpg?raw=true',
                 Rendimento: "8 porções",
                 Ingredientes: [
                     "Pão de queijo congelado",
@@ -92,6 +93,7 @@ export const data = [
                 id: 2,
                 Title: "Pera assada com catupiry de chuchu",
                 Tempo: " 15min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/tres.jpg?raw=true',
                 Rendimento: "1 porção",
                 Ingredientes: [
                     "Pera",
@@ -136,6 +138,7 @@ export const data = [
                 id: 3,
                 Title: "Abóbora manteiga recheada com carne-seca",
                 Tempo: "35min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/quatro.jpg?raw=true',
                 Rendimento: " 1 porção",
                 Ingredientes: [
                     "Abóbora manteiga",
@@ -172,6 +175,7 @@ export const data = [
                 id: 4,
                 Title: "Bolo d agua",
                 Tempo: "35min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/cinco.jpg?raw=true',
                 Rendimento: " 12 porções",
                 Ingredientes: [
                     "Açúcar",
@@ -201,6 +205,7 @@ export const data = [
                 id: 5,
                 Title: "Vinagrete de jiló",
                 Tempo: "30min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/seis.jpeg?raw=true',
                 Rendimento: "4 porções",
                 Ingredientes: [
                     "alho-poró fatiado",
@@ -241,6 +246,7 @@ export const data = [
                 id: 6,
                 Title: "Batata Frita Quentinha",
                 Tempo: "20min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/sete.jpg?raw=true',
                 Rendimento: "2 porções",
                 Ingredientes: [
                     "Batatas (quantidade a gosto) cortadas em palitos",
@@ -264,6 +270,7 @@ export const data = [
                 id: 7,
                 Title: "Homus de beterraba",
                 Tempo: "45min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/oito.jpg?raw=true',
                 Rendimento: "2 porções",
                 Ingredientes: [
                     "2 beterrabas",
@@ -303,6 +310,7 @@ export const data = [
                 id: 0,
                 Title: "Risoto de filé mignon",
                 Tempo: "40min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/nove.jpg?raw=true',
                 Rendimento: "4 porções",
                 Ingredientes: [
 
@@ -352,6 +360,7 @@ export const data = [
                 id: 1,
                 Title: "Farfalle limone com salmão",
                 Tempo: "40min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/dez.jpg?raw=true',
                 Rendimento: "5 porções",
                 Ingredientes: [
                     'farfalle',
@@ -396,6 +405,7 @@ export const data = [
                 id: 2,
                 Title: "Frango italiano",
                 Tempo: "50 min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/onze.jpg?raw=true',
                 Rendimento: "5 porções",
                 Ingredientes: [
                     'sopa de shoyu',
@@ -452,6 +462,7 @@ export const data = [
                 id: 3,
                 Title: "Sobrecoxa ao molho de cogumelos",
                 Tempo: "50min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/doze.jpg?raw=true',
                 Rendimento: "6 porções",
                 Ingredientes: [
                     'sobrecoxa',
@@ -493,6 +504,7 @@ export const data = [
                 id: 4,
                 Title: "Carbonara vegana",
                 Tempo: "10 min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/treze.jpg?raw=true',
                 Rendimento: "1 porção",
                 Ingredientes: [
 
@@ -540,6 +552,7 @@ export const data = [
                 id: 5,
                 Title: "Almôndegas de grão-de-bico veganas",
                 Tempo: "20 min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/quatorze.jpg?raw=true',
                 Rendimento: "10 a 15 unidades",
                 Ingredientes: [
 
@@ -579,6 +592,7 @@ export const data = [
                 id: 6,
                 Title: "Moqueca vegana",
                 Tempo: "30min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/quinze.jpeg?raw=true',
                 Rendimento: "4 porções",
                 Ingredientes: [
                     'azeite',
@@ -630,6 +644,7 @@ export const data = [
                 id: 7,
                 Title: "Feijoada vegana",
                 Tempo: "50min",
+                Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/dezesseis.jpg?raw=true',
                 Rendimento: "4 porções",
                 Ingredientes: [
 
@@ -682,6 +697,7 @@ export const data = [
               id: 0,
               Title: "Pudim",
               Tempo: "60 min",
+              Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/dezessete.jpg?raw=true',
               Rendimento: "8 porções",
               Ingredientes: [
                 "leite condensado",
@@ -707,6 +723,7 @@ export const data = [
               id: 1,
               Title: "Manjar de coco",
               Tempo: "20 min",
+              Img: '',
               Rendimento: "20 porções",
               Ingredientes: [
                 "leite",
@@ -736,6 +753,7 @@ export const data = [
               id: 2,
               Title: "Petit gateau",
               Tempo: "30 min",
+              Img: 'https://github.com/llucassilva/app_cookeats/blob/master/assets/imgreceita/dezoito.jpg?raw=true',
               Rendimento: "8 porções",
               Ingredientes: [
                 "chocolate meio amargo",
@@ -767,6 +785,7 @@ export const data = [
               id: 3,
               Title: "Banoffe de banana",
               Tempo: "30 min",
+              Img: '',
               Rendimento: "8 porções",
               Ingredientes: [
                 "biscoito maisena",
@@ -789,6 +808,7 @@ export const data = [
               id: 4,
               Title: "Pudim de chia simples",
               Tempo: "80min",
+              Img: '',
               Rendimento: "1 porção grande ou 2 pequenas",
               Ingredientes: [
                 "leite de coco",
@@ -814,6 +834,7 @@ export const data = [
               id: 5,
               Title: "Mousse de pitaya",
               Tempo: "40min",
+              Img: '',
               Rendimento: "4 a 6 porções",
               Ingredientes: [
                 "pitaya rosa",
@@ -835,6 +856,7 @@ export const data = [
               id: 6,
               Title: "Pavê vegano",
               Tempo: "20min",
+              Img: '',
               Rendimento: "10 porções",
               Ingredientes: [
                 "leite vegetal",
@@ -870,6 +892,7 @@ export const data = [
               id: 7,
               Title: "Brigadeiro de capim-limão",
               Tempo: "60min",
+              Img: '',
               Rendimento: "4 a 6 porções",
               Ingredientes: [
                 "inhame médio cozido e sem casca",
@@ -898,6 +921,7 @@ export const data = [
               id: 8,
               Title: "Trufa de coco com damasco",
               Tempo: "25min",
+              Img: '',
               Rendimento: " 15 a 20 porções",
               Ingredientes: [
                 "damasco seco",
