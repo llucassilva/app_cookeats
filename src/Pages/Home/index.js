@@ -17,9 +17,9 @@ export default function Home() {
 
 
   const categorias = [
-    <Opcoes  title="Entrada" vegano="Entrada vegana"/>,
-    <Opcoes title="Prato principal" vegano="Prato vegano"/>,
-    <Opcoes title="Sobremesa" vegano="Sobremesa vegana"/>,
+    <Opcoes data={data[0].Entrada} dataveg={data[0].EntradaVeg} title="Entrada" vegano="Entrada vegana"/>,
+    <Opcoes data={data[0].PratoPrincipal} dataveg={data[0].PratoVeg} title="Prato principal" vegano="Prato vegano"/>,
+    <Opcoes data={data[0].Sobremesa} dataveg={data[0].SobremesaVeg} title="Sobremesa" vegano="Sobremesa vegana"/>,
   ]
 
   return (

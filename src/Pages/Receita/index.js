@@ -10,7 +10,8 @@ import {
 import React, { useState } from "react";
 import { data } from "../../../receitas/entrada1";
 
-export default function Receita() {
+export default function Receita({ route }) {
+  console.log(route.params.paramKey)
   return (
     <ScrollView>
       <View>

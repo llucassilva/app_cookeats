@@ -4,7 +4,6 @@
             [{
 
                 id: 0,
-                
                 Title: "Brusqueta de cogumelo paris",
                 Tempo: "31min",
                 Video: "rugMLg82n34&t=3s",
@@ -314,8 +313,8 @@
 
         ],
 
-        PratoPrincipal: {
-            Prato1: {
+        PratoPrincipal: [
+            {
                 id: 0,
                 Title: "Risoto de filé mignon",
                 Tempo: "40min",
@@ -366,7 +365,7 @@
 
                 ],
             },
-            Prato2: {
+             {
                 id: 1,
                 Title: "Farfalle limone com salmão",
                 Tempo: "40min",
@@ -412,7 +411,7 @@
 
                 ],
             },
-            Prato3: {
+            {
                 id: 2,
                 Title: "Frango italiano",
                 Tempo: "50 min",
@@ -470,7 +469,7 @@
 
                 ],
             },
-            Prato4: {
+            {
                 id: 3,
                 Title: "Sobrecoxa ao molho de cogumelos",
                 Tempo: "50min",
@@ -511,9 +510,9 @@
                 ],
             },
 
-        },
-        PratoVeg: {
-            PratoVeg1: {
+        ],
+        PratoVeg: [
+            {
                 id: 4,
                 Title: "Carbonara vegana",
                 Tempo: "10 min",
@@ -562,7 +561,7 @@
 
                 ],
             },
-            PratoVeg2: {
+            {
                 id: 5,
                 Title: "Almôndegas de grão-de-bico veganas",
                 Tempo: "20 min",
@@ -603,7 +602,7 @@
 
                 ],
             },
-            PratoVeg3: {
+            {
                 id: 6,
                 Title: "Moqueca vegana",
                 Tempo: "30min",
@@ -656,7 +655,7 @@
 
                 ],
             },
-            PratoVeg4: {
+           {
                 id: 7,
                 Title: "Feijoada vegana",
                 Tempo: "50min",
@@ -708,9 +707,9 @@
 
                 ],
             }
-        },
-        Sobremesa: {
-            Sobremesa1: {
+        ],
+        Sobremesa: [
+            {
               id: 0,
               Title: "Pudim",
               Tempo: "60 min",
@@ -737,7 +736,7 @@
                 "Deixe esfriar e desenforme.",
               ],
             },
-            Sobremesa2: {
+            {
               id: 1,
               Title: "Manjar de coco",
               Tempo: "20 min",
@@ -768,7 +767,7 @@
                 "Sirva com calda de ameixa ou calda de morangos.",
               ],
             },
-            Sobremesa3: {
+            {
               id: 2,
               Title: "Petit gateau",
               Tempo: "30 min",
@@ -801,7 +800,7 @@
                 "Sirva diretamente no prato, acompanhado com sorvete de creme.",
               ],
             },
-            Sobremesa4: {
+            {
               id: 3,
               Title: "Banoffe de banana",
               Tempo: "30 min",
@@ -823,9 +822,9 @@
                 "Polvilhe canela para decorar e sirva gelado.",
               ],
             },
-          },
-          SobremesaVeg: {
-            SobremesaVeg1: {
+        ],
+          SobremesaVeg: [
+            {
               id: 4,
               Title: "Pudim de chia simples",
               Tempo: "80min",
@@ -852,7 +851,7 @@
                 "Agora é só servir.",
               ],
             },
-            SobremesaVeg1: {
+            {
               id: 5,
               Title: "Mousse de pitaya",
               Tempo: "40min",
@@ -875,7 +874,7 @@
                 "Agora é só servir. Bom apetite.",
               ],
             },
-            SobremesaVeg1: {
+            {
               id: 6,
               Title: "Pavê vegano",
               Tempo: "20min",
@@ -912,7 +911,7 @@
                 "Agora é só servir! Bom apetite.",
               ],
             },
-            SobremesaVeg1: {
+            {
               id: 7,
               Title: "Brigadeiro de capim-limão",
               Tempo: "60min",
@@ -942,7 +941,7 @@
               ],
       
             },
-             SobremesaVeg1: {
+             {
               id: 8,
               Title: "Trufa de coco com damasco",
               Tempo: "25min",
@@ -969,7 +968,7 @@
       
               ],
              }
-          },
+            ],
     }
 
 ]

@@ -1,18 +1,22 @@
-import { View, Text, ScrollView, StyleSheet, Dimensions } from "react-native";
+import { View, Text, ScrollView, StyleSheet, Dimensions, TouchableOpacity } from "react-native";
 import React from "react";
 import Card from "./Card";
 import { data } from "../../receitas/entrada1";
+import { useNavigation } from "@react-navigation/core";
 
-export default function Opcoes({ title, vegano }) {
+export default function Opcoes({ title,data,dataveg, vegano }) {
+  const navigate = useNavigation()
   return (
     <>
       <View style={style.container}>
         <Text style={style.OpcoesTitle}>{title}</Text>
         <ScrollView horizontal>
-          {data[0].Entrada.map((item, index) => {
+          {data.map((item, index) => {
             console.log(item)
             return(
-              <Card key={index} title={item.Title} />
+              <TouchableOpacity onPress={() => navigate.navigate("Receita", {paramKey: data})}>
+                <Card key={index} img={item.Img} title={item.Title} />
+              </TouchableOpacity>
             )
           })}
         </ScrollView>
@@ -20,9 +24,11 @@ export default function Opcoes({ title, vegano }) {
       <View style={style.container}>
         <Text style={style.OpcoesTitleVegano}>{vegano}</Text>
         <ScrollView horizontal>
-          {data[0].EntradaVeg.map((item,index) => {
+          {dataveg.map((item,index) => {
             return(
-              <Card key={index} title={item.Title} />
+              <TouchableOpacity onPress={() => navigate.navigate("Receita", {paramKey: data})}>
+                <Card key={index} title={item.Title} />
+              </TouchableOpacity>
             )
           })}
         </ScrollView>
