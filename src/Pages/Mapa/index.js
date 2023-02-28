@@ -12,6 +12,7 @@ import MapView, { Marker } from "react-native-maps";
 import * as Location from "expo-location";
 import axios from "axios";
 import { useNavigation } from "@react-navigation/native";
+import CardVideo from "../../Components/CardVideo";
 
 export default function App() {
   const navigation = useNavigation();
