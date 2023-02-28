@@ -13,8 +13,9 @@ import  Steak  from "../../../assets/steak.jpg";
 import Time from "../../../assets/iconTime.jpg"
 import Pessoa from "../../../assets/iconPessoa.jpg"
 
-export default function Receita(props) {
-  const [hover, setHover] = useState("Ingredientes");
+export default function Receita({ route }) {
+const [hover, setHover] = useState("Ingredientes");
+  console.log(route.params.paramKey)
 
   return (
     <ScrollView>
