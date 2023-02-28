@@ -15,7 +15,7 @@ import Pessoa from "../../../assets/iconPessoa.jpg"
 
 export default function Receita({ route }) {
 const [hover, setHover] = useState("Ingredientes");
-  console.log(route.params.paramKey)
+  // console.log(route.params.paramKey)
 
   return (
     <ScrollView>
