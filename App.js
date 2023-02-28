@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from './src/Pages/Home';
@@ -7,6 +7,8 @@ import Mapa from './src/Pages/Mapa';
 import Receita from './src/Pages/Receita';
 
 const Tab = createBottomTabNavigator();
+const HomeStack = createNativeStackNavigator();
+
 
 export default function App() {
   return (

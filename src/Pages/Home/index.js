@@ -11,23 +11,21 @@ import {
 import React, { useState } from "react";
 import Opcoes from "../../Components/Opcoes";
 import { data } from "../../../receitas/entrada1"
+const img = require("../../img/Header.png")
 
-export default function Home() {
-  const [hover, setHover] = useState("");
-
+export default function Home({ navigation }) {
+  const [hover, setHover] = useState("Entrada");
 
   const categorias = [
-    <Opcoes data={data[0].Entrada} dataveg={data[0].EntradaVeg} title="Entrada" vegano="Entrada vegana"/>,
-    <Opcoes data={data[0].PratoPrincipal} dataveg={data[0].PratoVeg} title="Prato principal" vegano="Prato vegano"/>,
-    <Opcoes data={data[0].Sobremesa} dataveg={data[0].SobremesaVeg} title="Sobremesa" vegano="Sobremesa vegana"/>,
+    <Opcoes navigation={navigation} data={data[0].Entrada} dataveg={data[0].EntradaVeg} title="Entrada" vegano="Entrada vegana"/>,
+    <Opcoes navigation={navigation} data={data[0].PratoPrincipal} dataveg={data[0].PratoVeg} title="Prato principal" vegano="Prato vegano"/>,
+    <Opcoes navigation={navigation} data={data[0].Sobremesa} dataveg={data[0].SobremesaVeg} title="Sobremesa" vegano="Sobremesa vegana"/>,
   ]
 
   return (
     <View>
       <View style={style.container}>
-        <Image source="../../img/Header.png"/>
-        <Text style={style.titleHeader}>Cookeats</Text>
-        <Text style={style.textheader}>Cookeats</Text>
+        <Image source={img} style={style.img}/>
       </View>
       <Text style={style.titleCategoria}>Receitas</Text>
       <View style={style.categoria}>
@@ -84,21 +82,21 @@ const style = StyleSheet.create({
   },
   titleCategoria: {
     width: width,
-    fontSize: 30,
+    fontSize: 25,
     marginLeft: 10,
-    marginTop: 14,
+    marginTop: 10,
   },
   categoria: {
     width: width,
     flexDirection: "row",
   },
   textoCategoria: {
-    marginTop: 10,
+    marginTop: 5,
     marginLeft: 10,
     fontSize: 20,
   },
   textoCategoriaPress: {
-    marginTop: 10,
+    marginTop: 5,
     marginLeft: 10,
     fontSize: 20,
     borderBottomColor: "#23DCBB",
@@ -113,4 +111,8 @@ const style = StyleSheet.create({
   titleEntrada: {
     fontSize: 45,
   },
+  img:{
+    width: "100%",
+    height: "100%"
+  }
 });

@@ -1,20 +1,19 @@
 import { View, Text, ScrollView, StyleSheet, Dimensions, TouchableOpacity } from "react-native";
 import React from "react";
 import Card from "./Card";
-import { data } from "../../receitas/entrada1";
-import { useNavigation } from "@react-navigation/core";
+import { useNavigation } from '@react-navigation/native';
 
 export default function Opcoes({ title,data,dataveg, vegano }) {
-  const navigate = useNavigation()
+  const navigation = useNavigation()
+
   return (
-    <>
+    <View style={style.containerGeral}>
       <View style={style.container}>
         <Text style={style.OpcoesTitle}>{title}</Text>
         <ScrollView horizontal>
           {data.map((item, index) => {
-            console.log(item)
             return(
-              <TouchableOpacity onPress={() => navigate.navigate("Receita", {paramKey: data})}>
+              <TouchableOpacity key={index} onPress={() => navigation.navigate("Receita", item)}>
                 <Card key={index} img={item.Img} title={item.Title} />
               </TouchableOpacity>
             )
@@ -26,14 +25,14 @@ export default function Opcoes({ title,data,dataveg, vegano }) {
         <ScrollView horizontal>
           {dataveg.map((item,index) => {
             return(
-              <TouchableOpacity onPress={() => navigate.navigate("Receita", {paramKey: data})}>
-                <Card key={index} title={item.Title} />
+              <TouchableOpacity key={index} onPress={() => navigation.navigate("Receita", item)}>
+                <Card  title={item.Title} />
               </TouchableOpacity>
             )
           })}
         </ScrollView>
       </View>
-    </>
+    </View>
   );
 }
 
@@ -61,7 +60,7 @@ const style = StyleSheet.create({
     marginRight: 15,
   },
   containerGeral: {
-    height: 500,
+    height: 700,
   },
   container: {
     height: 220,

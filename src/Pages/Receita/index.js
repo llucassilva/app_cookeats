@@ -6,39 +6,41 @@ import {
   Dimensions,
   ScrollView,
   TouchableOpacity,
+  StatusBar
 } from "react-native";
 import React, { useState } from "react";
-import { data } from "../../../receitas/entrada1";
 import  Steak  from "../../../assets/steak.jpg";
 import Time from "../../../assets/iconTime.jpg"
 import Pessoa from "../../../assets/iconPessoa.jpg"
 
-export default function Receita({ route }) {
+export default function Receita({ route, navigation }) {
 const [hover, setHover] = useState("Ingredientes");
-  // console.log(route.params.paramKey)
-
+  const data = route.params
   return (
     <ScrollView>
+      <StatusBar/>
       <View>
+        <TouchableOpacity onPress={() => navigation.goBack()} style={style.voltar}>
+          <Text>Voltar</Text>
+        </TouchableOpacity>
         <View style={style.containerImg}>
-          <Image source = {Steak} alt="carne" style={style.carne} />
+          <Image source={Steak} alt="carne" style={style.carne} />
         </View>
-        {data.map((item) => (
-          <View key={item.Entrada.Receita1.Title}>
+          <View>
             <View style={style.container}>
               <Text style={style.tituloReceita}>
-                {item.Entrada.Receita1.Title}
+                {data.Title}
               </Text>
               <View style={style.containerOrganizacao}>
                 <View style={style.containerCol}>
                   <Image source={Time} alt="Relógio"/>
                   <Text style={style.textoPreparo}>Preparo</Text>
-                  <Text style={style.tempoRendimento}>{item.Entrada.Receita1.Tempo}</Text>
+                  <Text style={style.tempoRendimento}>{data.Tempo}</Text>
                 </View>
                 <View style={style.containerCol2}>
                   <Image source={Pessoa} alt="Pessoa"/>
                   <Text style={style.textoPreparo}>Rendimento</Text>
-                  <Text style={style.itemRendimento}>{item.Entrada.Receita1.Rendimento}</Text>
+                  <Text style={style.itemRendimento}>{data.Rendimento}</Text>
                 </View>
               </View>
 
@@ -70,12 +72,12 @@ const [hover, setHover] = useState("Ingredientes");
               </View>
               { hover === "Ingredientes" ?
               <View style={style.containerReceita}>
-                {item.Entrada.Receita1.Ingredientes.map(
+                {data.Ingredientes.map(
                   (ingredientes, index) => (
                     <View key={index}>
                       <Text style={style.ingrediente}>{ingredientes}</Text>
                       <Text style={style.quantidade}>
-                        {item.Entrada.Receita1.Quantidade[index]}
+                        {data.Quantidade[index]}
                       </Text>
                     </View>
                   )
@@ -83,7 +85,7 @@ const [hover, setHover] = useState("Ingredientes");
               </View> :
               <View>
               <View>
-                {item.Entrada.Receita1.Preparo.map((preparo, index) => (
+                {data.Preparo.map((preparo, index) => (
                   <View style={style.containerPreparo} key={index}>
                       <Text style={style.tituloPreparo}>{index + 1 + "."}</Text>
                       <Text style={style.palavrasPreparo}>{preparo}</Text>
@@ -94,7 +96,6 @@ const [hover, setHover] = useState("Ingredientes");
               }
             </View>
           </View>
-        ))}
       </View>
     </ScrollView>
   );
@@ -218,4 +219,7 @@ const style = StyleSheet.create({
     borderBottomWidth: 1,
     marginLeft: 5,
   },
+  voltar:{
+    padding:8
+  }
 });
