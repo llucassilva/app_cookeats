@@ -26,7 +26,7 @@ export default function Opcoes({ title,data,dataveg, vegano }) {
           {dataveg.map((item,index) => {
             return(
               <TouchableOpacity key={index} onPress={() => navigation.navigate("Receita", item)}>
-                <Card  title={item.Title} />
+                <Card key={index} img={item.Img} title={item.Title} />
               </TouchableOpacity>
             )
           })}

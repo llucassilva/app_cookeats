@@ -4,7 +4,7 @@ import React from "react";
 export default function Card({ img, title }) {
   return (
     <View style={style.containerCard}>
-      <Image source={img} alt=""  style={{height: "70%", width: "100%", backgroundColor: "#000", borderTopLeftRadius: 15, borderTopRightRadius:15}}/>
+      <Image source={{uri: img}} alt=""  style={{height: "70%", width: "100%", backgroundColor: "#000", borderTopLeftRadius: 15, borderTopRightRadius:15}}/>
       <View style={style.containerTitle}>
         <Text style={style.cardTitle}>{title}</Text>  
       </View>

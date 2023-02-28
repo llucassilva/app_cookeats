@@ -14,6 +14,7 @@ import Pessoa from "../../../assets/iconPessoa.jpg"
 
 export default function Receita({ route, navigation }) {
 const [hover, setHover] = useState("Ingredientes");
+
   const data = route.params
   return (
     <ScrollView>
@@ -23,7 +24,7 @@ const [hover, setHover] = useState("Ingredientes");
           <Text>Voltar</Text>
         </TouchableOpacity>
         <View style={style.containerImg}>
-          <Image source={Steak} alt="carne" style={style.carne} />
+          <Image  source={{uri: data.Img}} alt="Imagem da receita" style={style.carne} />
         </View>
           <View>
             <View style={style.container}>
@@ -111,6 +112,7 @@ const style = StyleSheet.create({
   },
   carne: {
     width: '100%',
+    height: 400,
   },
   containerImg:{
     zIndex: 1

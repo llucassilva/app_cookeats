@@ -23,7 +23,7 @@ export default function Home({ navigation }) {
   ]
 
   return (
-    <View>
+    <ScrollView>
       <View style={style.container}>
         <Image source={img} style={style.img}/>
       </View>
@@ -63,7 +63,7 @@ export default function Home({ navigation }) {
       <View style={style.containerEntrada}>
           {hover === "Entrada" ? categorias[0] : hover === "Principal" ? categorias[1] : hover === "Sobremesa" ? categorias[2] : categorias[0]}
       </View>
-    </View>
+    </ScrollView>
   );
 }
 
@@ -104,7 +104,7 @@ const style = StyleSheet.create({
   },
   containerEntrada: {
     width: width,
-    height: 250,
+    height: 500,
     padding: 10,
     marginTop: 10,
   },
